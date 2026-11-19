@@ -52,6 +52,3 @@ jobs:
           printf 'a,b,c\n1,2,3' | csvstat
           printf 'a,b,c\n1,2,3' | in2csv -f csv
           printf 'SELECT 1 AS a' | sql2csv
-      - uses: codecov/codecov-action@303a32d7a59b442fa8d48b6a1cc6825c09c847a5 # v7.1.1
-        with:
-          fail_ci_if_error: true
